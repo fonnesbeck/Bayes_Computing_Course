@@ -1,0 +1,42 @@
+name: bayes_course
+
+channels:
+  - conda-forge
+  - gpytorch
+  - pytorch
+dependencies:
+  - python=3.6
+  - cython
+  - cpuonly
+  - ipython
+  - ipywidgets
+  - jupyter_client
+  - jupyter_core
+  - conda-forge::jupyterlab
+  - gpytorch
+  - lxml
+  - matplotlib
+  - mkl-service
+  - notebook
+  - numpy
+  - pandas
+  - patsy
+  - pip
+  - pymc3
+  - pydot
+  - python-graphviz
+  - pytorch
+  - scikit-learn
+  - scipy
+  - seaborn
+  - setuptools
+  - theano
+  - torchvision
+  - xlrd
+  - pip:
+      - arviz
+      - dataclasses
+      - gast==0.2.2
+      - tf-nightly-2.0-preview
+      - tfp-nightly
+      - git+https://github.com/GPflow/GPflow.git@awav/gpflow-2.0
