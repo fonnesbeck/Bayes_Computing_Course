@@ -13,7 +13,7 @@ dependencies:
   - jupyter_client
   - jupyter_core
   - conda-forge::jupyterlab
-  - gpytorch
+  - gpytorch::gpytorch
   - lxml
   - matplotlib
   - mkl-service
@@ -25,7 +25,7 @@ dependencies:
   - pymc3
   - pydot
   - python-graphviz
-  - pytorch
+  - pytorch::pytorch
   - scikit-learn
   - scipy
   - seaborn
@@ -35,8 +35,6 @@ dependencies:
   - xlrd
   - pip:
       - arviz
-      - dataclasses
-      - gast==0.2.2
-      - tf-nightly-2.0-preview
+      - tensorflow==2.0.0
       - tfp-nightly
-      - git+https://github.com/GPflow/GPflow.git@awav/gpflow-2.0
+
