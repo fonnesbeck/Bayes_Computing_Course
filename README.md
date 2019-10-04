@@ -66,4 +66,4 @@ Then, you can start **JupyterLab** to access the materials:
 
 ## Pre-course Work
 
-In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory. There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems by creating an [issue](https://github.com/fonnesbeck/QB_Bayes_Course/issues) in this repository.
+In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory. There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems (or with setting up your computing environment) by creating an [issue](https://github.com/fonnesbeck/QB_Bayes_Course/issues) in this repository.
