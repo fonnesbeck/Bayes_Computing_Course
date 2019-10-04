@@ -48,9 +48,9 @@ This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribu
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
-    git clone https://github.com/ColCarroll/bayes_course.git
+    git clone https://github.com/fonnesbeck/QB_Bayes_Course.git
     
-otherwise you can [download a zip file](https://github.com/ColCarroll/bayes_course/archive/master.zip) of its contents, and unzip it on your computer.
+otherwise you can [download a zip file](https://github.com/fonnesbeck/QB_Bayes_Course/archive/master.zip) of its contents, and unzip it on your computer.
 ***
 The repository for this tutorial contains a file called `environment.yml` that includes a list of all the packages used for the tutorial. If you run:
 
