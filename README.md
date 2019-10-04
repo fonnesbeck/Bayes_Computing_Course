@@ -63,3 +63,7 @@ from the main tutorial directory, it will create the environment for you and ins
 Then, you can start **JupyterLab** to access the materials:
 
     jupyter lab
+
+## Pre-course Work
+
+In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory. There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems.
