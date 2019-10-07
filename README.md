@@ -6,36 +6,36 @@ Material for course on Bayesian Computation
 ## Course Outline
 
 ### Monday, October 21
-1. Hierarchcial Models (Chris)
+1. **Hierarchcial Models** (Chris) 9:00am - 12:00pm 
     - motivation and case studies
     - partial pooling
     - building hierarchical models
     - parameterizations
     - model checking
-2. Markov chain Monte Carlo (Colin)
+2. **Markov chain Monte Carlo** (Colin) 1:00pm - 4:00pm
     - MCMC basics
     - variational inference
     - diagnostics
 ### Tuesday, October 22
-3. The Bayesian Workflow (Colin)
+3. **The Bayesian Workflow** (Colin) 9:00am - 12:00pm 
     - prior predictive checks
     - posterior predictive checks
     - model comparison
     - using the model 
-4. Bayesian Time Series Models (Chris)
+4. **Bayesian Time Series Models** (Chris) 1:00pm - 4:00pm 
     - modeling repeated measurements
     - structural time series models
     - hierarchical time series models
     - censored data and survival models
     - model checking
 ### Wednesday, October 23
-5. Bayesian Non-parametric Models (Chris)
+5. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm 
     - kernel-based models
     - modeling with Gaussian distributions
     - Gaussian processes
     - covariance functions
     - Bayesian optimization
-6. Advanced Topics and Software Overview (Colin)
+6. **Advanced Topics and Software Overview** (Colin) 1:00pm - 4:00pm
     - Stan
     - PyMC3
     - pyro
