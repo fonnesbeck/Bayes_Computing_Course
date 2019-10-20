@@ -2,6 +2,7 @@
 
 Material for course on Bayesian Computation
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fonnesbeck/QB_Bayes_Course/master)
 
 ## Course Outline
 
