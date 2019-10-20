@@ -5,7 +5,8 @@ channels:
   - gpytorch
   - pytorch
 dependencies:
-  - python=3.6
+  - python=3.7
+  - conda-forge::arviz
   - cython
   - cpuonly
   - ipython
@@ -13,7 +14,8 @@ dependencies:
   - jupyter_client
   - jupyter_core
   - conda-forge::jupyterlab
-  - gpytorch::gpytorch
+  - gpytorch
+  - conda-forge::lifelines
   - lxml
   - matplotlib
   - mkl-service
@@ -25,7 +27,7 @@ dependencies:
   - pymc3
   - pydot
   - python-graphviz
-  - pytorch::pytorch
+  - pytorch
   - scikit-learn
   - scipy
   - seaborn
@@ -33,8 +35,3 @@ dependencies:
   - theano
   - torchvision
   - xlrd
-  - pip:
-      - arviz
-      - tensorflow==2.0.0
-      - tfp-nightly
-
