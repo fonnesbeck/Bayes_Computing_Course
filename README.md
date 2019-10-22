@@ -17,18 +17,25 @@ Material for course on Bayesian Computation
     - MCMC basics
     - variational inference
     - diagnostics
+    
 ### Tuesday, October 22
-3. **The Bayesian Workflow** (Colin) 9:00am - 12:00pm 
+2. **Markov chain Monte Carlo (Cont'd)** (Colin) 9:00am - 12:15pm
+    - Metropolis-Hastings finish
+    - Gibbs
+    - HMC
+    - Introduction to diagnostics
+3. **The Bayesian Workflow** (Colin)
     - prior predictive checks
     - posterior predictive checks
     - model comparison
     - using the model 
-4. **Bayesian Time Series Models** (Chris) 1:00pm - 4:00pm 
+4. **Bayesian Time Series Models** (Chris) 1:30pm - 4:30pm 
     - modeling repeated measurements
     - structural time series models
     - hierarchical time series models
     - censored data and survival models
     - model checking
+    
 ### Wednesday, October 23
 5. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm 
     - kernel-based models
