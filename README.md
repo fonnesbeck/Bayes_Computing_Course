@@ -1,4 +1,4 @@
-# QuantumBlack Bayes Course
+# Bayesian Computing Course
 
 Material for course on Bayesian Computation
 
