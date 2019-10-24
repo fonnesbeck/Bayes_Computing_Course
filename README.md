@@ -2,12 +2,12 @@
 
 Material for course on Bayesian Computation
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fonnesbeck/QB_Bayes_Course/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fonnesbeck/Bayes_Computing_Course/master)
 
 ## Course Outline
 
 ### Monday, October 21
-1. **Hierarchcial Models** (Chris) 9:00am - 12:00pm 
+1. **Hierarchcial Models** (Chris) 9:00am - 12:00pm
     - motivation and case studies
     - partial pooling
     - building hierarchical models
@@ -17,7 +17,7 @@ Material for course on Bayesian Computation
     - MCMC basics
     - variational inference
     - diagnostics
-    
+
 ### Tuesday, October 22
 2. **Markov chain Monte Carlo (Cont'd)** (Colin) 9:00am - 12:15pm
     - Metropolis-Hastings finish
@@ -28,16 +28,16 @@ Material for course on Bayesian Computation
     - prior predictive checks
     - posterior predictive checks
     - model comparison
-    - using the model 
-4. **Bayesian Time Series Models** (Chris) 1:30pm - 4:30pm 
+    - using the model
+4. **Bayesian Time Series Models** (Chris) 1:30pm - 4:30pm
     - modeling repeated measurements
     - structural time series models
     - hierarchical time series models
     - censored data and survival models
     - model checking
-    
+
 ### Wednesday, October 23
-5. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm 
+5. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm
     - kernel-based models
     - modeling with Gaussian distributions
     - Gaussian processes
@@ -56,22 +56,22 @@ This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribu
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
-    git clone https://github.com/fonnesbeck/QB_Bayes_Course.git
-    
-otherwise you can [download a zip file](https://github.com/fonnesbeck/QB_Bayes_Course/archive/master.zip) of its contents, and unzip it on your computer.
+    git clone https://github.com/fonnesbeck/Bayes_Computing_Course.git
+
+otherwise you can [download a zip file](https://github.com/fonnesbeck/Bayes_Computing_Course/archive/master.zip) of its contents, and unzip it on your computer.
 ***
 The repository for this tutorial contains a file called `environment.yml` that includes a list of all the packages used for the tutorial. If you run:
 
     conda env create
-    
+
 from the main tutorial directory, it will create the environment for you and install all of the packages listed. This environment can be enabled using:
 
     conda activate bayes_course
-    
+
 Then, you can start **JupyterLab** to access the materials:
 
     jupyter lab
 
 ## Pre-course Work
 
-In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory. There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems (or with setting up your computing environment) by creating an [issue](https://github.com/fonnesbeck/QB_Bayes_Course/issues) in this repository.
+In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory. There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems (or with setting up your computing environment) by creating an [issue](https://github.com/fonnesbeck/Bayes_Computing_Course/issues) in this repository.
