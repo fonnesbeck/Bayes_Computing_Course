@@ -6,7 +6,7 @@ Material for course on Bayesian Computation
 
 ## Setup
 
-This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or greater) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
+This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
@@ -26,53 +26,59 @@ Then, you can start **JupyterLab** to access the materials:
 
     jupyter lab
 
+The binder link above should also provide a working environment.
+
 ## Pre-course Work
 
-In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory (under `Section0-Pre_Work.ipynb`). There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems (or with setting up your computing environment) by creating an [issue](https://github.com/fonnesbeck/Bayes_Computing_Course/issues) in this repository.
+In advance of the course, we would like attendees to complete a short homework notebook that will ensure everyone has the requisite baseline knowledge. You can find this Jupyter notebook in the `/notebooks` subdirectory (under `Section0-Pre_Work.ipynb`). There is no need to hand this in to anyone, but please reach out if you have difficulty with any of the problems (or with setting up your computing environment) by creating an [issue](https://github.com/fonnesbeck/Bayes_Computing_Course/issues) in this repository, or by emailing.
 
 ## Course Outline
+
+This is subject to change. We will seek input at the end of each day and try to accommodate where there is interest.
+
+Roughly, the first half of the course jumps right in with applied examples, then steps back to cover some of the theory behind Bayesian methods before going carefully through another applied case study. The second half of the course is a variety of more advanced topics, currently covering time series, Bayesian non-parametrics, and the landscape of open source software available for doing Bayesian work.
 
 ### Wednesday, January 8
 
 1. **Hierarchcial Models** (Chris) 9:00am - 12:00pm
-    - motivation and case studies
-    - partial pooling
-    - building hierarchical models
-    - parameterizations
-    - model checking
+    - Motivation and case studies
+    - Partial pooling
+    - Building hierarchical models
+    - Parameterizations
+    - Model checking
 2. **Markov chain Monte Carlo** (Colin) 1:00pm - 4:00pm
+    - Probability density functions, inverse CDF sampling
+    - Rejection sampling
     - MCMC basics
-    - variational inference
-    - diagnostics
+    - Metropolis-Hastings samplers
+    - Gibbs samplers
 
 ### Thursday, January 9
 
-2. **Markov chain Monte Carlo (Cont'd)** (Colin) 9:00am - 12:15pm
-    - Metropolis-Hastings finish
-    - Gibbs
-    - HMC
+3. **Modern Markov chain Monte Carlo** (Colin) 9:00am - 12:00pm
+    - Hamiltonian Monte Carlo
     - Introduction to diagnostics
-3. **The Bayesian Workflow** (Colin)
-    - prior predictive checks
-    - posterior predictive checks
-    - model comparison
-    - using the model
-4. **Bayesian Time Series Models** (Chris) 1:30pm - 4:30pm
-    - modeling repeated measurements
-    - structural time series models
-    - hierarchical time series models
-    - censored data and survival models
-    - model checking
+4. **The Bayesian Workflow** (Colin)
+    - Prior predictive checks
+    - Iterating models
+    - Posterior predictive checks
+    - Using the model
+5. **Bayesian Time Series Models** (Chris) 1:00pm - 4:00pm
+    - Modeling repeated measurements
+    - Structural time series models
+    - Hierarchical time series models
+    - Censored data and survival models
+    - Model checking
 
 ### Friday, January 10
 
-5. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm
-    - kernel-based models
-    - modeling with Gaussian distributions
+6. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm
+    - Kernel-based models
+    - Modeling with Gaussian distributions
     - Gaussian processes
-    - covariance functions
+    - Covariance functions
     - Bayesian optimization
-6. **Advanced Topics and Software Overview** (Colin) 1:00pm - 4:00pm
+7. **Advanced Topics, software overview, wrap-up** (Colin) 1:00pm - 4:00pm
     - Stan
     - PyMC3
     - pyro
