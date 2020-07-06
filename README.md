@@ -6,7 +6,7 @@ Material for course on Bayesian Computation
 
 ## Setup
 
-This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
+This tutorial assumes that you have [Anaconda](https://www.anaconda.com/products/individual#download-section) (Python 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
@@ -34,7 +34,7 @@ In advance of the course, we would like attendees to complete a short homework n
 
 ## Course Outline
 
-Roughly, the first half of the course jumps right in with applied examples, then steps back to cover some of the theory behind Bayesian methods before going carefully through another applied case study. The second half of the course is a variety of more advanced topics, currently covering time series, Bayesian non-parametrics, and the landscape of open source software available for doing Bayesian work.
+The course comprises six 2-hour modules of videoconference lectures, along with short associated hands-on projects to reinforce materials covered during lectures. The first four sections cover core materials related to Bayesian computation, while the final two modules are elective material chosen by your group, which extend the concepts covered by the core sections to specific topics: time series modeling and non-parametric Bayesian models.
 
 ### Monday, July 13
 
