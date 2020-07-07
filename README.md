@@ -47,7 +47,7 @@ The course comprises six 2-hour modules of videoconference lectures, along with 
 
 ### Wednesday, July 15
 
-**Markov chain Monte Carlo** (Chris) 2:00pm - 4:00pm
+**Markov chain Monte Carlo** (Thomas) 2:00pm - 4:00pm
     - Probability density functions, inverse CDF sampling
     - Rejection sampling
     - MCMC basics
@@ -89,4 +89,3 @@ The course comprises six 2-hour modules of videoconference lectures, along with 
     - Hierarchical time series models
     - Censored data and survival models
     - Model checking
-
