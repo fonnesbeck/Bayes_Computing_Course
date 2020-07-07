@@ -20,7 +20,7 @@ dependencies:
   - pandas
   - patsy
   - pip
-  - pymc3
+  - pymc3=3.9.2
   - pydot
   - python-graphviz
   - scikit-learn
