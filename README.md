@@ -6,7 +6,7 @@ Material for course on Bayesian Computation
 
 ## Setup
 
-This tutorial assumes that you have [Anaconda](https://www.anaconda.com/products/individual#download-section) (Python 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
+This tutorial assumes that you have [Anaconda](https://www.anaconda.com/products/individual#download-section) (Python 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceeding with the setup.
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
@@ -89,5 +89,4 @@ The course comprises six 2-hour modules of videoconference lectures, along with 
     - Hierarchical time series models
     - Censored data and survival models
     - Model checking
-
 
