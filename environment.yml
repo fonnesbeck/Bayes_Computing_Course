@@ -2,20 +2,16 @@ name: bayes_course
 
 channels:
   - conda-forge
-  - gpytorch
-  - pytorch
 dependencies:
   - python=3.7
-  - conda-forge::arviz
+  - arviz
   - cython
   - cpuonly
   - ipython
   - ipywidgets
   - jupyter_client
   - jupyter_core
-  - conda-forge::jupyterlab
-  - gpytorch
-  - conda-forge::lifelines
+  - jupyterlab
   - lxml
   - matplotlib
   - mkl-service
@@ -24,14 +20,12 @@ dependencies:
   - pandas
   - patsy
   - pip
-  - pymc3
+  - pymc3=3.9.2
   - pydot
   - python-graphviz
-  - pytorch
   - scikit-learn
   - scipy
   - seaborn
   - setuptools
   - theano
-  - torchvision
   - xlrd

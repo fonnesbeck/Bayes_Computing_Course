@@ -6,7 +6,7 @@ Material for course on Bayesian Computation
 
 ## Setup
 
-This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
+This tutorial assumes that you have [Anaconda](https://www.anaconda.com/products/individual#download-section) (Python 3.7) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceeding with the setup.
 
 The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
 
@@ -34,53 +34,58 @@ In advance of the course, we would like attendees to complete a short homework n
 
 ## Course Outline
 
-This is subject to change. We will seek input at the end of each day and try to accommodate where there is interest.
+The course comprises six 2-hour modules of videoconference lectures, along with short associated hands-on projects to reinforce materials covered during lectures. The first four sections cover core materials related to Bayesian computation, while the final two modules are elective material chosen by your group, which extend the concepts covered by the core sections to specific topics: time series modeling and non-parametric Bayesian models.
 
-Roughly, the first half of the course jumps right in with applied examples, then steps back to cover some of the theory behind Bayesian methods before going carefully through another applied case study. The second half of the course is a variety of more advanced topics, currently covering time series, Bayesian non-parametrics, and the landscape of open source software available for doing Bayesian work.
+### Monday, July 13
 
-### Wednesday, January 8
-
-1. **Hierarchcial Models** (Chris) 9:00am - 12:00pm
+**Hierarchcial Models** (Chris) 2:00pm - 4:00pm
     - Motivation and case studies
     - Partial pooling
     - Building hierarchical models
     - Parameterizations
     - Model checking
-2. **Markov chain Monte Carlo** (Colin) 1:00pm - 4:00pm
+
+### Wednesday, July 15
+
+**Markov chain Monte Carlo** (Thomas) 2:00pm - 4:00pm
     - Probability density functions, inverse CDF sampling
     - Rejection sampling
     - MCMC basics
     - Metropolis-Hastings samplers
     - Gibbs samplers
 
-### Thursday, January 9
+### Friday, July 17
 
-3. **Modern Markov chain Monte Carlo** (Colin) 9:00am - 12:00pm
+**Gradient-based MCMC** (Chris) 2:00pm - 4:00pm
+    - Problems with first-generation MCMC methods
+    - Using gradient information to improve MCMC
     - Hamiltonian Monte Carlo
-    - Introduction to diagnostics
-4. **The Bayesian Workflow** (Colin)
+    - NUTS
+    - Diagnostics
+
+
+### Monday, July 20
+
+**The Bayesian Workflow** (Thomas) 2:00pm - 4:00pm
     - Prior predictive checks
     - Iterating models
     - Posterior predictive checks
     - Using the model
-5. **Bayesian Time Series Models** (Chris) 1:00pm - 4:00pm
-    - Modeling repeated measurements
-    - Structural time series models
-    - Hierarchical time series models
-    - Censored data and survival models
-    - Model checking
 
-### Friday, January 10
+### Wednesday, July 22
 
-6. **Bayesian Non-parametric Models** (Chris) 9:00am - 12:00pm
+**Bayesian Non-parametric Models** (Chris) 2:00pm - 4:00pm
     - Kernel-based models
     - Modeling with Gaussian distributions
     - Gaussian processes
     - Covariance functions
     - Bayesian optimization
-7. **Advanced Topics, software overview, wrap-up** (Colin) 1:00pm - 4:00pm
-    - Stan
-    - PyMC3
-    - pyro
-    - TensorFlow Probability
-    - using GPUs, TPUs
+
+### Friday, July 24
+
+**Bayesian Time Series Models** (Thomas) 2:00pm - 4:00pm
+    - Modeling repeated measurements
+    - Structural time series models
+    - Hierarchical time series models
+    - Censored data and survival models
+    - Model checking
