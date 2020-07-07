@@ -56,7 +56,7 @@ The course comprises six 2-hour modules of videoconference lectures, along with 
 
 ### Friday, July 17
 
-**Gradient-based MCMC** (Thomas) 2:00pm - 4:00pm
+**Gradient-based MCMC** (Chris) 2:00pm - 4:00pm
     - Problems with first-generation MCMC methods
     - Using gradient information to improve MCMC
     - Hamiltonian Monte Carlo
