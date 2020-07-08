@@ -39,53 +39,53 @@ The course comprises six 2-hour modules of videoconference lectures, along with 
 ### Monday, July 13
 
 **Hierarchcial Models** (Chris) 2:00pm - 4:00pm
-    - Motivation and case studies
-    - Partial pooling
-    - Building hierarchical models
-    - Parameterizations
-    - Model checking
+- Motivation and case studies
+- Partial pooling
+- Building hierarchical models
+- Parameterizations
+- Model checking
 
 ### Wednesday, July 15
 
 **Markov chain Monte Carlo** (Thomas) 2:00pm - 4:00pm
-    - Probability density functions, inverse CDF sampling
-    - Rejection sampling
-    - MCMC basics
-    - Metropolis-Hastings samplers
-    - Gibbs samplers
+- Probability density functions, inverse CDF sampling
+- Rejection sampling
+- MCMC basics
+- Metropolis-Hastings samplers
+- Gibbs samplers
 
 ### Friday, July 17
 
 **Gradient-based MCMC** (Chris) 2:00pm - 4:00pm
-    - Problems with first-generation MCMC methods
-    - Using gradient information to improve MCMC
-    - Hamiltonian Monte Carlo
-    - NUTS
-    - Diagnostics
+- Problems with first-generation MCMC methods
+- Using gradient information to improve MCMC
+- Hamiltonian Monte Carlo
+- NUTS
+- Diagnostics
 
 
 ### Monday, July 20
 
 **The Bayesian Workflow** (Thomas) 2:00pm - 4:00pm
-    - Prior predictive checks
-    - Iterating models
-    - Posterior predictive checks
-    - Using the model
+- Prior predictive checks
+- Iterating models
+- Posterior predictive checks
+- Using the model
 
 ### Wednesday, July 22
 
 **Bayesian Non-parametric Models** (Chris) 2:00pm - 4:00pm
-    - Kernel-based models
-    - Modeling with Gaussian distributions
-    - Gaussian processes
-    - Covariance functions
-    - Bayesian optimization
+- Kernel-based models
+- Modeling with Gaussian distributions
+- Gaussian processes
+- Covariance functions
+- Bayesian optimization
 
 ### Friday, July 24
 
 **Bayesian Time Series Models** (Thomas) 2:00pm - 4:00pm
-    - Modeling repeated measurements
-    - Structural time series models
-    - Hierarchical time series models
-    - Censored data and survival models
-    - Model checking
+- Modeling repeated measurements
+- Structural time series models
+- Hierarchical time series models
+- Censored data and survival models
+- Model checking
