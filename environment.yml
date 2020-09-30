@@ -19,12 +19,13 @@ dependencies:
   - pandas
   - patsy
   - pip
-  - pymc3=3.9.2
   - pydot
   - python-graphviz
   - scikit-learn
   - scipy
   - seaborn
   - setuptools
-  - theano
   - xlrd
+  - pip:
+    - theano
+    - pymc3
