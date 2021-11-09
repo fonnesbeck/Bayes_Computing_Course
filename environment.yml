@@ -3,7 +3,7 @@ name: bayes_course
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python
   - arviz
   - cython
   - ipython
@@ -26,6 +26,4 @@ dependencies:
   - seaborn
   - setuptools
   - xlrd
-  - pip:
-    - theano
-    - pymc3
+  - pymc3
